@@ -1,0 +1,18 @@
+{
+    "1": {
+        "name": "Streets",
+        "url": "mapbox: //styles/mapbox/streets-v11"
+    },
+    "2": {
+        "name": "Light",
+        "url": "mapbox: //styles/mapbox/light-v10"
+    },
+    "3": {
+        "name": "Dark",
+        "url": "mapbox: //styles/mapbox/dark-v10"
+    },
+    "4": {
+        "name": "Satellite",
+        "url": "mapbox: //styles/mapbox/satellite-v9"
+    }
+}

@@ -1,0 +1,76 @@
+.map-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.layerRow,
+.test {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.handle {
+  font-size: 1.2rem;
+  cursor: move;
+  /* fallback: Internet Explorer */
+  cursor: -webkit-grab;
+  /* Chrome 1-21, Safari 4+ */
+  cursor: -moz-grab;
+  /* Firefox 1.5-26 */
+  cursor: grab;
+  /* W3C standards syntax, should come least */
+}
+
+.handle:active {
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: grabbing;
+}
+
+.PrivateSwitchBase-root-1 {
+  padding: 4px;
+}
+
+.layeracc {
+  margin: 0px;
+}
+
+.width300 {
+  width: 300px;
+  overflow: auto;
+  max-height: 90vh;
+
+}
+
+.listitem {
+  margin: 5px 0px;
+}
+
+.MuiAccordionSummary-content {
+  margin: 0px !important;
+}
+
+.MuiAccordionDetails-root {
+  padding: 2px 4px 4px !important;
+}
+
+.cardcontainer {
+  padding: 2px 5px;
+  background-color: #eeeeee;
+  border-radius: 3px;
+}
+
+.toggle-group, .toggle{
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiAccordionSummary-root.Mui-expanded{
+  min-height: 48px !important;
+}

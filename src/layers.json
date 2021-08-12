@@ -1,0 +1,42 @@
+{
+  "1": {
+    "id": "1",
+    "name": "asd 1",
+    "description": "Estimated total population Estimated total population Estimated total population Estimated total population ",
+    "url": "conflictalert.0zu3fmp8",
+    "opacity": 100,
+    "checked": false
+  },
+  "2": {
+    "id": "2",
+    "name": "Road",
+    "description": "Estimated total population",
+    "url": "conflictalert.4pk1yk59",
+    "opacity": 100,
+    "checked": false
+  },
+  "3": {
+    "id": "3",
+    "name": "AAA",
+    "description": "Estimated total population",
+    "url": "asdasda",
+    "opacity": 100,
+    "checked": false
+  },
+  "4": {
+    "id": "4",
+    "name": "LC",
+    "description": "Estimated total population",
+    "url": "asdasda",
+    "opacity": 100,
+    "checked": false
+  },
+  "5": {
+    "id": "5",
+    "name": "ASDASD",
+    "description": "ssssssssss",
+    "url": "asdasda",
+    "opacity": 100,
+    "checked": false
+  }
+}
