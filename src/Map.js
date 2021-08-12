@@ -3,9 +3,8 @@ import mapboxgl from 'mapbox-gl';
 import Optionsfield from './components/Optionsfield';
 import './Map.css';
 
-import externallayers from './layers.json';
-import accessKey from './key.json';
-import externalBaseMaps from './basemaps.json';
+import externallayers from './env/layers.json';
+import accessKey from './env/key.json';
 
 import Panel from './components/Panel';
 
