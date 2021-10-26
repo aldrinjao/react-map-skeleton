@@ -1,0 +1,556 @@
+{
+    "Service POIS": {
+        "id": "3",
+        "name": "Service POIS",
+        "paint": {
+            "circle-color": [
+                "match",
+                [
+                    "get",
+                    "RUMP"
+                ],
+                "Community use",
+                "#eacb00",
+                "Commercial use",
+                "#b82b30",
+                "hsla(0, 0%, 0%, 0)"
+            ],
+            "circle-radius": [
+                "interpolate",
+                [
+                    "linear"
+                ],
+                [
+                    "zoom"
+                ],
+                0,
+                3,
+                5,
+                3.3000000000000003,
+                10,
+                4.199999999999999,
+                22,
+                6
+            ],
+            "circle-stroke-color": [
+                "match",
+                [
+                    "get",
+                    "RUMP"
+                ],
+                "Community use",
+                "rgb(164, 142, 0)",
+                "Commercial use",
+                "rgb(129, 30, 34)",
+                "hsla(0, 0%, 0%, 0)"
+            ],
+            "circle-stroke-width": 0.75
+        },
+        "legend": [
+            [
+                "Community use",
+                "#eacb00"
+            ],
+            [
+                "Commercial use",
+                "#b82b30"
+            ]
+        ]
+    },
+    "Service Links": {
+        "id": "4",
+        "name": "Service Links",
+        "paint": {
+            "line-color": [
+                "match",
+                [
+                    "get",
+                    "RUMP"
+                ],
+                "Community use",
+                "#eacb00",
+                "Commercial use",
+                "#b82b30",
+                "hsla(0, 0%, 0%, 0)"
+            ],
+            "line-opacity": 1
+        },
+        "legend": [
+            [
+                "Community use",
+                "#eacb00"
+            ],
+            [
+                "Commercial use",
+                "#b82b30"
+            ]
+        ]
+    },
+    "RUMP": {
+        "id": "5",
+        "name": "RUMP",
+        "paint": {
+            "fill-color": [
+                "match",
+                [
+                    "get",
+                    "RUMP"
+                ],
+                "Restoration area",
+                "#3655d2",
+                "Commercial use",
+                "hsl(358, 62%, 45%)",
+                "Community use",
+                "#eacb00",
+                "Protection area",
+                "#00960f",
+                "hsla(0, 0%, 0%, 0)"
+            ]
+        },
+        "legend": [
+            [
+                "Restoration area",
+                "#3655d2"
+            ],
+            [
+                "Commercial use",
+                "hsl(358, 62%, 45%)"
+            ],
+            [
+                "Community use",
+                "#eacb00"
+            ],
+            [
+                "Protection area",
+                "#00960f"
+            ]
+        ]
+    },
+    "Land Cover": {
+        "id": "6",
+        "name": "Land Cover",
+        "paint": {
+            "fill-color": [
+                "match",
+                [
+                    "get",
+                    "Landcover"
+                ],
+                "Annual crop",
+                "#bb710a",
+                "Built-up area",
+                "#e4b700",
+                "Canopy",
+                "#00640d",
+                "Fallow",
+                "#96b357",
+                "Forest",
+                "hsl(26, 75%, 63%)",
+                "Inland water",
+                "hsl(2, 70%, 61%)",
+                "Open sand/Barren",
+                "#a7a7a7",
+                "Wetland",
+                "#4c563b",
+                "Perrenial crop",
+                "#3d9949",
+                "hsla(0, 0%, 0%, 0)"
+            ]
+        },
+        "legend": [
+            [
+                "Annual crop",
+                "#bb710a"
+            ],
+            [
+                "Built-up area",
+                "#e4b700"
+            ],
+            [
+                "Canopy",
+                "#00640d"
+            ],
+            [
+                "Fallow",
+                "#96b357"
+            ],
+            [
+                "Forest",
+                "hsl(26, 75%, 63%)"
+            ],
+            [
+                "Inland water",
+                "hsl(2, 70%, 61%)"
+            ],
+            [
+                "Open sand/Barren",
+                "#a7a7a7"
+            ],
+            [
+                "Wetland",
+                "#4c563b"
+            ],
+            [
+                "Perrenial crop",
+                "#3d9949"
+            ]
+        ]
+    },
+    "TLA": {
+        "id": "7",
+        "name": "TLA",
+        "paint": {
+            "fill-color": [
+                "interpolate",
+                [
+                    "exponential",
+                    1
+                ],
+                [
+                    "get",
+                    "DN"
+                ],
+                96,
+                "hsl(295, 78%, 73%)",
+                169,
+                "hsl(266, 83%, 68%)",
+                242,
+                "#377eb8"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [
+            [
+                "TLA",
+                "#377eb8"
+            ]
+        ]
+    },
+    "Flood Susceptibility": {
+        "id": "8",
+        "name": "Flood Susceptibility",
+        "paint": {
+            "fill-color": [
+                "match",
+                [
+                    "get",
+                    "FloodSusc"
+                ],
+                "Low Flooding",
+                "#ffd501",
+                "Very High Flooding",
+                "#b20b00",
+                "Medium Flooding",
+                "#ff9f05",
+                "High Flooding",
+                "#ff3401",
+                "hsla(0, 0%, 0%, 0)"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [
+            [
+                "Low Flooding",
+                "#ffd501"
+            ],
+            [
+                "Very High Flooding",
+                "#b20b00"
+            ],
+            [
+                "Medium Flooding",
+                "#ff9f05"
+            ],
+            [
+                "High Flooding",
+                "#ff3401"
+            ]
+        ]
+    },
+    "Unclaimed Areas": {
+        "id": "9",
+        "name": "Unclaimed Areas",
+        "paint": {
+            "fill-color": [
+                "interpolate",
+                [
+                    "exponential",
+                    1
+                ],
+                [
+                    "get",
+                    "Area"
+                ],
+                0,
+                "#ff7f00",
+                10000000,
+                "#ff7f00"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [
+            [
+                "Unclaimed Areas",
+                "#ff7f00"
+            ]
+        ]
+    },
+    "Indicative Boundary": {
+        "id": "10",
+        "name": "Indicative Boundary",
+        "paint": {
+            "line-color": "rgb(175, 163, 163)",
+            "line-width": 2
+        },
+        "legend": [
+            [
+                "Indicative Boundary",
+                "rgb(175, 163, 163)"
+            ]
+        ]
+    },
+    "Land Use": {
+        "id": "11",
+        "name": "Land Use",
+        "paint": {
+            "fill-color": [
+                "match",
+                [
+                    "get",
+                    "Landuse"
+                ],
+                "Forest",
+                "#00640d",
+                "Closed forest",
+                "#004e03",
+                "Ricefield",
+                "#f0af08",
+                "Coconut-dominated area",
+                "#4fc16c",
+                "Industrial area",
+                "#676767",
+                "Residential/Built-up area",
+                "#ffea25",
+                "Brushland",
+                "#9aca7c",
+                "Tree farm",
+                "#6fe5a6",
+                "Riparian forest",
+                "#148b69",
+                "hsla(0, 0%, 0%, 0)"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [
+            [
+                "Forest",
+                "#00640d"
+            ],
+            [
+                "Closed forest",
+                "#004e03"
+            ],
+            [
+                "Ricefield",
+                "#f0af08"
+            ],
+            [
+                "Coconut-dominated area",
+                "#4fc16c"
+            ],
+            [
+                "Industrial area",
+                "#676767"
+            ],
+            [
+                "Residential area/Built-up area",
+                "#ffea25"
+            ],
+            [
+                "Brushland",
+                "#9aca7c"
+            ],
+            [
+                "Tree farm",
+                "#6fe5a6"
+            ],
+            [
+                "Riparian forest",
+                "#148b69"
+            ]
+        ]
+    },
+    "Mining Sites": {
+        "id": "11",
+        "name": "Mining Sites",
+        "paint": {
+            "fill-color": [
+                "interpolate",
+                [
+                    "exponential",
+                    1
+                ],
+                [
+                    "get",
+                    "fid"
+                ],
+                0,
+                "#c07a00",
+                1000000,
+                "#c07a00"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [[
+            "Mining Sites",
+            "#c07a00"]
+        ]
+    },
+    "NIPAS System": {
+        "id": "12",
+        "name": "NIPAS System",
+        "paint": {
+            "fill-color": [
+                "interpolate",
+                [
+                    "exponential",
+                    1
+                ],
+                [
+                    "get",
+                    "DN"
+                ],
+                0,
+                "#94d180",
+                1000000,
+                "#94d180"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [
+            [
+                "NIPAS System",
+                "#94d180"
+            ]
+        ]
+    },
+    "River Basin": {
+        "id": "13",
+        "name": "River Basin",
+        "paint": {
+            "fill-color": [
+                "interpolate",
+                [
+                    "exponential",
+                    1
+                ],
+                [
+                    "get",
+                    "DN"
+                ],
+                0,
+                "#377eb8",
+                300,
+                "#377eb8"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [
+            [
+                "River Basin",
+                "#377eb8"
+            ]
+        ]
+    },
+    "Proc Watershed": {
+        "id": "13",
+        "name": "Proc Watershed",
+        "paint": {
+            "fill-color": [
+                "interpolate",
+                [
+                    "exponential",
+                    1
+                ],
+                [
+                    "get",
+                    "fid"
+                ],
+                0,
+                "#a5bfdd",
+                300,
+                "#a5bfdd"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [
+            [
+                "Proc Watershed",
+                "#a5bfdd"
+            ]
+        ]
+    },
+    "Landslide Hazard": {
+        "id": "14",
+        "name": "Landslide Hazard",
+        "paint": {
+            "fill-color": [
+                "match",
+                [
+                    "get",
+                    "FID"
+                ],
+                0,
+                "#ffd501",
+                1,
+                "#ff9f05",
+                3,
+                "#ff3401",
+                "hsla(0, 0%, 0%, 0)"
+            ],
+            "fill-opacity": 0.5
+        },
+        "legend": [
+            [
+                "Low",
+                "#ffd501"
+            ],
+            [
+                "Medium",
+                "#ff9f05"
+            ],
+            [
+                "High",
+                "#ff3401"
+            ]
+        ]
+    },
+    "Faultlines": {
+        "id": "15",
+        "name": "Landslide Hazard",
+        "paint": {
+            "line-color": [
+                "match",
+                [
+                    "get",
+                    "status"
+                ],
+                "Active",
+                "#b20b00",
+                "Potential",
+                "#ff9f05",
+                "hsla(0, 0%, 0%, 0)"
+            ]
+        },
+        "legend": [
+            [
+                "Active",
+                "#b20b00"
+            ],
+            [
+                "Potential",
+                "#ff9f05"
+            ]
+        ]
+    }
+}

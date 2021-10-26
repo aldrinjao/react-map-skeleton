@@ -1,0 +1,63 @@
+{
+  "1": {
+    "year": 2019,
+    "cause": "Governance issue",
+    "location": {
+      "longitude": 123,
+      "latitude": 8.512,
+      "province": "Province A",
+      "municipality": "Mun A"
+    }
+  },
+  "2": {
+    "year": 2010,
+    "cause": "Political issue",
+    "location": {
+      "longitude": 124,
+      "latitude": 7,
+      "province": "Province A",
+      "municipality": "Mun A"
+    }
+  },
+  "3": {
+    "year": 2011,
+    "cause": "Shadow economy",
+    "location": {
+      "longitude": 124,
+      "latitude": 5,
+      "province": "Province A",
+      "municipality": "Mun A"
+    }
+  },
+  "5": {
+    "year": 2016,
+    "cause": "Shadow economy",
+    "location": {
+      
+      "longitude": 122,
+      "latitude": 8,
+      "province": "Province A",
+      "municipality": "Mun A"
+    }
+  },
+  "6": {
+    "year": 2015,
+    "cause": "Shadow economy",
+    "location": {
+      "longitude": 123.4,
+      "latitude": 8,
+      "province": "Province A",
+      "municipality": "Mun A"
+    }
+  },
+  "7": {
+    "year": 2014,
+    "cause": "Other issue",
+    "location": {
+      "longitude": 125,
+      "latitude": 8,
+      "province": "Province A",
+      "municipality": "Mun A"
+    }
+  }
+}

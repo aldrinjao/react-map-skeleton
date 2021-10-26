@@ -40,15 +40,19 @@
   margin: 0px;
 }
 
-.width300 {
-  width: 300px;
+.width400 {
+  width: 320px;
   overflow: auto;
   max-height: 90vh;
 
 }
 
+.width290 {
+  width: 230px;
+}
+
 .listitem {
-  margin: 5px 0px;
+  margin: 1px 0px;
 }
 
 .MuiAccordionSummary-content {
@@ -65,12 +69,50 @@
   border-radius: 3px;
 }
 
-.toggle-group, .toggle{
+.toggle-group,
+.toggle {
   border-radius: 5px;
   display: flex;
   flex-direction: column;
 }
 
-.MuiAccordionSummary-root.Mui-expanded{
+.MuiAccordionSummary-root.Mui-expanded {
   min-height: 48px !important;
+}
+
+.filterPanelexp {
+  margin-left: 342px;
+}
+.filterPanelcol {
+  margin-left: 72px;
+}
+
+.panelTitle {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.panelTitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.panelIcon {
+  font-size: .9rem;
+}
+
+.filterBox {
+  margin: 20px auto 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.cust-py12 {
+  padding-top: 12px !important;
+  padding-bottom: 4px !important;
+
 }

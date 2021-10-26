@@ -1,0 +1,152 @@
+{
+    "3": {
+        "id": "3",
+        "name": "Service POIS",
+        "description": "",
+        "type": "circle",
+        "url": "rump-conflictalert.kapailandcover",
+        "column": "kapai_servicespois",
+        "opacity": 100,
+        "checked": false
+    },
+    "4": {
+        "id": "4",
+        "name": "Service Links",
+        "description": "",
+        "type": "line",
+        "url": "rump-conflictalert.kapaiserviceslinks",
+        "column": "kapai_serviceslinks",
+        "opacity": 100,
+        "checked": false
+    },
+    "5": {
+        "id": "5",
+        "name": "RUMP",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.rump",
+        "column": "kapai_rump",
+        "opacity": 100,
+        "checked": false
+    },
+    "6": {
+        "id": "6",
+        "name": "Land Cover",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_landcover",
+        "column": "kapai_landcover",
+        "opacity": 100,
+        "checked": false
+    },
+    "7": {
+        "id": "7",
+        "name": "TLA",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_tla",
+        "column": "tla",
+        "opacity": 100,
+        "checked": false
+    },
+    "8": {
+        "id": "8",
+        "name": "Flood Susceptibility",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_flood",
+        "column": "flood_susceptibility",
+        "opacity": 100,
+        "checked": false
+    },
+    "9": {
+        "id": "9",
+        "name": "Unclaimed Areas",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_unclaimed",
+        "column": "kapai_unclaimedareas",
+        "opacity": 100,
+        "checked": false
+    },
+    "10": {
+        "id": "10",
+        "name": "Indicative Boundary",
+        "description": "",
+        "type": "line",
+        "url": "rump-conflictalert.kapai_indicativeboundary",
+        "column": "kapai_indicativeboundary",
+        "opacity": 100,
+        "checked": false
+    },
+    "11": {
+        "id": "11",
+        "name": "Land Use",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_landuse",
+        "column": "kapai_landuse",
+        "opacity": 100,
+        "checked": false
+    },
+    "12": {
+        "id": "12",
+        "name": "Mining Sites",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_mining",
+        "column": "miningsites",
+        "opacity": 100,
+        "checked": false
+    },
+    "13": {
+        "id": "13",
+        "name": "NIPAS System",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_nipas",
+        "column": "nipas_initialcomponent",
+        "opacity": 100,
+        "checked": false
+    },
+    "14": {
+        "id": "14",
+        "name": "River Basin",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_riverbasin",
+        "column": "riverbasin",
+        "opacity": 100,
+        "checked": false
+    },
+    "15": {
+        "id": "15",
+        "name": "Proc Watershed",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_watershed",
+        "column": "proclaimed_watershed",
+        "opacity": 100,
+        "checked": false
+    },
+    "16": {
+        "id": "16",
+        "name": "Landslide Hazard",
+        "description": "",
+        "type": "fill",
+        "url": "rump-conflictalert.kapai_lnadslide",
+        "column": "lanaodelsur_landslidehazards",
+        "opacity": 100,
+        "checked": false
+    },
+    "17": {
+        "id": "17",
+        "name": "Faultlines",
+        "description": "",
+        "type": "line",
+        "url": "rump-conflictalert.kapai_faultlines",
+        "column": "lds_faultlines",
+        "opacity": 100,
+        "checked": false
+    }
+}

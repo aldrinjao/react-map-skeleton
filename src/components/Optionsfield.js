@@ -18,7 +18,7 @@ const Optionsfield = ({basemaps, activeBaseMap, changeBaseMap}) => {
     );
   };
   return (
-    <div className="toggle-group absolute top right mr12 mt12 border border--2 border--white bg-white shadow-darken10 z1">
+    <div className="toggle-group absolute top right mr60 mt12 border border--2 border--white bg-white shadow-darken10 z1">
       {basemaps.map(renderOptions)}
       
     </div>

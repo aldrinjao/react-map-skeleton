@@ -29,7 +29,7 @@ const useStyles = makeStyles({
     layerDesc: {
         fontSize: '.8rem',
         lineHeight: '1.2',
-        margin: '0px 0px 10px 0px'
+        margin: '0px 0px 0px 0px'
     }
 
 });
@@ -71,7 +71,7 @@ const options = [
 ];
 
 
-const Layerdetails = ({ id, name, checked, setLayerlist, maplayers, description, opacity }) => {
+const Layerdetails = ({ id, name, checked, setLayerlist, maplayers, description, opacity, styling }) => {
     const classes = useStyles();
     const [active, setActive] = useState(options[0]);
 
@@ -97,7 +97,7 @@ const Layerdetails = ({ id, name, checked, setLayerlist, maplayers, description,
             <div className={classes.layerDesc}>
                 {description}
             </div>
-            <div className={classes.sliderLayer} >
+            {/* <div className={classes.sliderLayer} >
                 <div title="Opacity">
                     <OpacityIcon
                         title="opacity"
@@ -122,10 +122,9 @@ const Layerdetails = ({ id, name, checked, setLayerlist, maplayers, description,
                 </div>
 
 
-            </div>
+            </div> */}
 
-            Legend:
-                  <Legend active={active} stops={active.stops} />
+                  <Legend active={active} stops={active.stops} legend={styling[name].legend}/>
 
         </div>
     );
